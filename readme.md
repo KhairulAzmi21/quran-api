@@ -4,7 +4,7 @@ To Install application
 
 1. Download zip or Git Clone the Repository
 
-2. Run these command
+2. Run this command
 ```
 composer install
 ```
@@ -29,3 +29,11 @@ DB_PASSWORD=secret
 CACHE_DRIVER=memcached
 QUEUE_DRIVER=sync
 ``` 
+
+5.Run this command
+```
+php artisan migrate
+php artisan db:seed
+```
+
+6. Finally import database
